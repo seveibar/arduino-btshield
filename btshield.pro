@@ -1,4 +1,4 @@
-update=Thu 23 Jul 2015 10:31:28 PM EDT
+update=Thu 23 Jul 2015 11:24:21 PM EDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=btshield
+LibName32=/home/seve/workspace/kicad/kicad-library/template/Arduino_As_Uno_R3/Arduino_As_Uno-cache
