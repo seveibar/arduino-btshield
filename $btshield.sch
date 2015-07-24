@@ -1,0 +1,166 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:btshield
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "24 jul 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HC-10 U?
+U 1 1 55B1A980
+P 5800 3750
+F 0 "U?" H 5800 3000 60  0000 C CNN
+F 1 "HC-10" H 5800 4850 60  0000 C CNN
+F 2 "" H 5800 3750 60  0000 C CNN
+F 3 "" H 5800 3750 60  0000 C CNN
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 55B1AA1D
+P 4300 3950
+F 0 "C?" H 4300 4050 40  0000 L CNN
+F 1 "0.1uF" H 4306 3865 40  0000 L CNN
+F 2 "~" H 4338 3800 30  0000 C CNN
+F 3 "~" H 4300 3950 60  0000 C CNN
+	1    4300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND GND
+U 1 1 55B1AA3A
+P 4300 4300
+F 0 "GND" H 4300 4300 30  0001 C CNN
+F 1 "GND" H 4300 4230 30  0001 C CNN
+F 2 "" H 4300 4300 60  0000 C CNN
+F 3 "" H 4300 4300 60  0000 C CNN
+	1    4300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC 3.3V
+U 1 1 55B1AA60
+P 4300 3450
+F 0 "3.3V" H 4300 3550 30  0001 C CNN
+F 1 "VCC" H 4300 3550 30  0000 C CNN
+F 2 "" H 4300 3450 60  0000 C CNN
+F 3 "" H 4300 3450 60  0000 C CNN
+	1    4300 3450
+	1    0    0    -1  
+$EndComp
+Text Notes 4350 3550 0    60   ~ 0
+3.3V
+$Comp
+L GND GND
+U 1 1 55B1AAEB
+P 4950 4500
+F 0 "GND" H 4950 4500 30  0001 C CNN
+F 1 "GND" H 4950 4430 30  0001 C CNN
+F 2 "" H 4950 4500 60  0000 C CNN
+F 3 "" H 4950 4500 60  0000 C CNN
+	1    4950 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4150 4300 4300
+Wire Wire Line
+	4300 3750 5150 3750
+Wire Wire Line
+	4300 3450 4300 3750
+Wire Wire Line
+	5150 3950 4950 3950
+Wire Wire Line
+	4950 3950 4950 4500
+Wire Wire Line
+	5150 4050 4950 4050
+Connection ~ 4950 4050
+Wire Wire Line
+	5150 4150 4950 4150
+Connection ~ 4950 4150
+Wire Wire Line
+	5150 4250 4950 4250
+Connection ~ 4950 4250
+$Comp
+L VCC #PWR?
+U 1 1 55B1AB64
+P 6850 4300
+F 0 "#PWR?" H 6850 4400 30  0001 C CNN
+F 1 "VCC" H 6850 4400 30  0000 C CNN
+F 2 "" H 6850 4300 60  0000 C CNN
+F 3 "" H 6850 4300 60  0000 C CNN
+	1    6850 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 55B1ABA5
+P 6550 4750
+F 0 "SW?" H 6700 4860 50  0000 C CNN
+F 1 "SW_PUSH" H 6550 4670 50  0000 C CNN
+F 2 "~" H 6550 4750 60  0000 C CNN
+F 3 "~" H 6550 4750 60  0000 C CNN
+	1    6550 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND GND
+U 1 1 55B1ABBE
+P 6550 5200
+F 0 "GND" H 6550 5200 30  0001 C CNN
+F 1 "GND" H 6550 5130 30  0001 C CNN
+F 2 "" H 6550 5200 60  0000 C CNN
+F 3 "" H 6550 5200 60  0000 C CNN
+	1    6550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5050 6550 5200
+Wire Wire Line
+	6850 4300 6850 4450
+Wire Wire Line
+	6850 4450 6550 4450
+Wire Wire Line
+	6400 4250 6550 4250
+Wire Wire Line
+	6550 4250 6550 4450
+$EndSCHEMATC
