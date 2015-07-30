@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name btshield)(type KiCad)(uri /home/seve/workspace/lightfeed/bt-shield/btshield.pretty)(options "")(descr ""))
+  (lib (name btshield)(type KiCad)(uri ./btshield.pretty)(options "")(descr ""))
 )
