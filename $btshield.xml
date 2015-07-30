@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/seve/workspace/lightfeed/bt-shield/$btshield.sch</source>
+    <date>Mon 27 Jul 2015 12:38:55 AM EDT</date>
+    <tool>Eeschema (2015-07-26 BZR 5996)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>26 jul 2015</date>
+        <source>$btshield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/logic_converter/" tstamps="/55B5AC98/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>logic_converter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>HC-10</value>
+      <libsource lib="btshield" part="HC-10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1A980</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <libsource lib="$btshield-rescue" part="C-RESCUE-$btshield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1AA1D</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1ABA5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <libsource lib="$btshield-rescue" part="R-RESCUE-$btshield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B1AC33</tstamp>
+    </comp>
+    <comp ref="SHIELD1">
+      <value>ARDUINO_SHIELD</value>
+      <libsource lib="btshield" part="ARDUINO_SHIELD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B52CD4</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B6C72E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B6D4A4</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B73A1B</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B73A21</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B74055</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B7405B</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_PUSH</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B74121</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B74127</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B7746D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55B78BDD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5ACEF</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5B3FD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5B5D4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5B63A</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>SOT-23</footprint>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5B67E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>SOT-23</footprint>
+      <libsource lib="transistors" part="BSS138"/>
+      <sheetpath names="/logic_converter/" tstamps="/55B5AC98/"/>
+      <tstamp>55B5B81E</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="$btshield-rescue" part="C-RESCUE-$btshield">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-$btshield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="$btshield-rescue" part="R-RESCUE-$btshield">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-$btshield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="BSS138">
+      <description>BSS138, 50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="btshield" part="ARDUINO_SHIELD">
+      <fields>
+        <field name="Reference">SHIELD</field>
+        <field name="Value">ARDUINO_SHIELD</field>
+      </fields>
+      <pins>
+        <pin num="0" name="0" type="BiDi"/>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="5V" name="5V" type="power_out"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+        <pin num="10" name="10" type="BiDi"/>
+        <pin num="11" name="11" type="BiDi"/>
+        <pin num="12" name="12" type="BiDi"/>
+        <pin num="13" name="13" type="BiDi"/>
+        <pin num="3V3" name="3V3" type="power_out"/>
+        <pin num="AD0" name="AD0" type="BiDi"/>
+        <pin num="AD1" name="AD1" type="BiDi"/>
+        <pin num="AD2" name="AD2" type="BiDi"/>
+        <pin num="AD3" name="AD3" type="BiDi"/>
+        <pin num="AD4" name="AD4" type="BiDi"/>
+        <pin num="AD5" name="AD5" type="BiDi"/>
+        <pin num="AREF" name="AREF" type="power_in"/>
+        <pin num="GND1" name="GND1" type="power_out"/>
+        <pin num="GND2" name="GND2" type="power_in"/>
+        <pin num="GND3" name="GND3" type="power_in"/>
+        <pin num="RST" name="RST" type="input"/>
+        <pin num="V_IN" name="V_IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="btshield" part="HC-10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HC-10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="UART_TX" type="input"/>
+        <pin num="2" name="UART_RX" type="input"/>
+        <pin num="3" name="UART_CTS" type="input"/>
+        <pin num="4" name="UART_RTS" type="input"/>
+        <pin num="12" name="3.3V" type="input"/>
+        <pin num="13" name="GND1" type="input"/>
+        <pin num="14" name="GND2" type="input"/>
+        <pin num="21" name="GND3" type="input"/>
+        <pin num="22" name="GND4" type="input"/>
+        <pin num="23" name="PIO0" type="input"/>
+        <pin num="24" name="PIO1" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="$btshield-rescue">
+      <uri>/home/seve/workspace/lightfeed/bt-shield/$btshield-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>/usr/local/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="btshield">
+      <uri>/home/seve/workspace/lightfeed/bt-shield/btshield.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="SW1" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SHIELD1" pin="5V"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="R4" pin="1"/>
+      <node ref="SHIELD1" pin="GND1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U1" pin="14"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="3" name="/BUTTON_2">
+      <node ref="SHIELD1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="4" name="/logic_converter/L_RX">
+      <node ref="Q2" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="6" name="/logic_converter/L_TX">
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="7" name="/BUTTON_1">
+      <node ref="SW1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="SHIELD1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="23"/>
+      <node ref="R5" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="Net-(SHIELD1-Pad6)">
+      <node ref="SHIELD1" pin="6"/>
+    </net>
+    <net code="11" name="Net-(SHIELD1-Pad7)">
+      <node ref="SHIELD1" pin="7"/>
+    </net>
+    <net code="12" name="Net-(SHIELD1-Pad8)">
+      <node ref="SHIELD1" pin="8"/>
+    </net>
+    <net code="13" name="Net-(SHIELD1-Pad9)">
+      <node ref="SHIELD1" pin="9"/>
+    </net>
+    <net code="14" name="Net-(SHIELD1-Pad10)">
+      <node ref="SHIELD1" pin="10"/>
+    </net>
+    <net code="15" name="Net-(SHIELD1-Pad11)">
+      <node ref="SHIELD1" pin="11"/>
+    </net>
+    <net code="16" name="Net-(SHIELD1-Pad12)">
+      <node ref="SHIELD1" pin="12"/>
+    </net>
+    <net code="17" name="Net-(SHIELD1-Pad13)">
+      <node ref="SHIELD1" pin="13"/>
+    </net>
+    <net code="18" name="Net-(SHIELD1-PadGND3)">
+      <node ref="SHIELD1" pin="GND3"/>
+    </net>
+    <net code="19" name="Net-(SHIELD1-PadAREF)">
+      <node ref="SHIELD1" pin="AREF"/>
+    </net>
+    <net code="20" name="/logic_converter/H_RX">
+      <node ref="SHIELD1" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="21" name="/BUTTON_3">
+      <node ref="SHIELD1" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="22" name="/BUTTON_4">
+      <node ref="R4" pin="2"/>
+      <node ref="SHIELD1" pin="5"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="23" name="Net-(SHIELD1-PadAD0)">
+      <node ref="SHIELD1" pin="AD0"/>
+    </net>
+    <net code="24" name="Net-(SHIELD1-PadAD1)">
+      <node ref="SHIELD1" pin="AD1"/>
+    </net>
+    <net code="25" name="Net-(SHIELD1-PadAD2)">
+      <node ref="SHIELD1" pin="AD2"/>
+    </net>
+    <net code="26" name="Net-(SHIELD1-PadAD3)">
+      <node ref="SHIELD1" pin="AD3"/>
+    </net>
+    <net code="27" name="Net-(SHIELD1-PadAD4)">
+      <node ref="SHIELD1" pin="AD4"/>
+    </net>
+    <net code="28" name="Net-(SHIELD1-PadAD5)">
+      <node ref="SHIELD1" pin="AD5"/>
+    </net>
+    <net code="29" name="Net-(SHIELD1-PadRST)">
+      <node ref="SHIELD1" pin="RST"/>
+    </net>
+    <net code="30" name="Net-(SHIELD1-PadGND2)">
+      <node ref="SHIELD1" pin="GND2"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="33" name="+3V3">
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="SHIELD1" pin="3V3"/>
+      <node ref="U1" pin="12"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="34" name="/logic_converter/H_TX">
+      <node ref="SHIELD1" pin="0"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(SHIELD1-PadV_IN)">
+      <node ref="SHIELD1" pin="V_IN"/>
+    </net>
+  </nets>
+</export>
