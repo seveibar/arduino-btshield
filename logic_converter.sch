@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:$btshield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,8 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:btshield
-LIBS:arduino_shieldsNCL
-LIBS:$btshield-cache
+LIBS:Arduino_As_Uno-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

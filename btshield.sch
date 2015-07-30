@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:$btshield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,8 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:btshield
-LIBS:arduino_shieldsNCL
-LIBS:$btshield-cache
+LIBS:Arduino_As_Uno-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,50 +54,6 @@ F 1 "HC-10" H 5800 4850 60  0000 C CNN
 F 2 "btshield:hc10" H 5750 3950 60  0001 C CNN
 F 3 "" H 5800 3750 60  0000 C CNN
 	1    5800 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L C-RESCUE-$btshield C1
-U 1 1 55B1AA1D
-P 4300 3950
-F 0 "C1" H 4300 4050 40  0000 L CNN
-F 1 "0.1uF" H 4306 3865 40  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4338 3800 30  0001 C CNN
-F 3 "~" H 4300 3950 60  0000 C CNN
-	1    4300 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-$btshield #GND01
-U 1 1 55B1AA3A
-P 4300 4300
-F 0 "#GND01" H 4300 4300 30  0001 C CNN
-F 1 "GND" H 4300 4230 30  0001 C CNN
-F 2 "" H 4300 4300 60  0000 C CNN
-F 3 "" H 4300 4300 60  0000 C CNN
-	1    4300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-$btshield #GND02
-U 1 1 55B1AAEB
-P 4950 4500
-F 0 "#GND02" H 4950 4500 30  0001 C CNN
-F 1 "GND" H 4950 4430 30  0001 C CNN
-F 2 "" H 4950 4500 60  0000 C CNN
-F 3 "" H 4950 4500 60  0000 C CNN
-	1    4950 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND-RESCUE-$btshield #GND03
-U 1 1 55B1ABBE
-P 6550 5600
-F 0 "#GND03" H 6550 5600 30  0001 C CNN
-F 1 "GND" H 6550 5530 30  0001 C CNN
-F 2 "" H 6550 5600 60  0000 C CNN
-F 3 "" H 6550 5600 60  0000 C CNN
-	1    6550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -258,15 +212,13 @@ F 3 "" H 2650 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4150 4300 4300
-Wire Wire Line
 	4300 3750 5150 3750
 Wire Wire Line
-	4300 3450 4300 3750
+	4300 3450 4300 3850
 Wire Wire Line
 	5150 3950 4950 3950
 Wire Wire Line
-	4950 3950 4950 4500
+	4950 3950 4950 4750
 Wire Wire Line
 	5150 4050 4950 4050
 Connection ~ 4950 4050
@@ -585,5 +537,50 @@ F 2 "Buttons_Switches_ThroughHole:SW_PUSH_SMALL" H 6550 5150 60  0001 C CNN
 F 3 "" H 6550 5150 60  0000 C CNN
 	1    6550 5150
 	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 55BA627D
+P 4300 4000
+F 0 "C?" H 4325 4100 50  0000 L CNN
+F 1 "C" H 4325 3900 50  0000 L CNN
+F 2 "" H 4338 3850 30  0000 C CNN
+F 3 "" H 4300 4000 60  0000 C CNN
+	1    4300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55BA62D8
+P 4300 4150
+F 0 "#PWR?" H 4300 3900 50  0001 C CNN
+F 1 "GND" H 4300 4000 50  0000 C CNN
+F 2 "" H 4300 4150 60  0000 C CNN
+F 3 "" H 4300 4150 60  0000 C CNN
+	1    4300 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3750
+$Comp
+L GND #PWR?
+U 1 1 55BA65BE
+P 4950 4750
+F 0 "#PWR?" H 4950 4500 50  0001 C CNN
+F 1 "GND" H 4950 4600 50  0000 C CNN
+F 2 "" H 4950 4750 60  0000 C CNN
+F 3 "" H 4950 4750 60  0000 C CNN
+	1    4950 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55BA68D7
+P 6550 5600
+F 0 "#PWR?" H 6550 5350 50  0001 C CNN
+F 1 "GND" H 6550 5450 50  0000 C CNN
+F 2 "" H 6550 5600 60  0000 C CNN
+F 3 "" H 6550 5600 60  0000 C CNN
+	1    6550 5600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
